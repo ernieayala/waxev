@@ -71,7 +71,7 @@ PAGE = """<!doctype html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Box Shortlist</title>
-<meta name="description" content="Topps sealed boxes ranked by the chance and cost of pulling a low-numbered autograph, from Topps's published odds.">
+<meta name="description" content="Topps sealed boxes ranked by what their autographs resell for and how often those cards sell, from Topps's published odds and SportsCardsPro values.">
 <style>
 :root {
   --bg: #fbfaf8; --fg: #1d1d1f; --muted: #5f6368; --line: #e3e1dc;
@@ -105,7 +105,7 @@ footer { margin-top: 48px; color: var(--muted); font-size: 0.85rem; }
 <body>
 <main>
 {body}
-<footer>Built from box-shortlist.md. Odds from Topps's published odds sheets; prices as labeled in the table.</footer>
+<footer>Built from box-shortlist.md. Odds from Topps's published odds sheets; auto values from SportsCardsPro; prices as labeled in the table.</footer>
 </main>
 </body>
 </html>
